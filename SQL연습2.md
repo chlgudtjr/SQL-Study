@@ -1,18 +1,7 @@
-# 21-01-14(게시판 정리)
+# 2021.01.14(SQL연습2)
 
-### 1. 게시판 설계도를 그리시오(Model 2,MVC)?
 
- **1. Model 2 패턴**
-
-![Untitled](https://user-images.githubusercontent.com/75012998/104706621-b16a2d00-575e-11eb-83e7-f2539afc7cc7.png)
-
-**2. MVC 패턴**
-
-![Untitled 1](https://user-images.githubusercontent.com/75012998/104706630-b29b5a00-575e-11eb-9332-b64e28165c2b.png)
-
----
-
-### 2. DB 관련하여 아래를 정리하시오.
+### 1. DB 관련하여 아래를 정리하시오.
 
 ```sql
 --게시판 DB 설계(특히 댓글관련 컬럼)
@@ -49,20 +38,7 @@
 
 ---
 
-### 3. Servlet에서 forward방법은?
-
-```java
-RequestDispatcher dispatcher = request.getRequestDispatcher(viewPage);
-dispatcher.forward(request, response);
-
-/*
-	클라이언트의 최초 요청을 받을 servlet내에 특정 자원에 처리를 요청하고 처리 결과를 
-	얻어오는 기능을 수행하는 클래스인 RequestDispatcher객체를 사용하여 viewPage에서 요청받은 것을
-	설계된 로직에 의해 실행되어 클라이언트 요청에 알맞는 UI화면을 응답시켜준다.
-*/
-```
-
-### 4. 아래 쿼리를 푸시오.
+### 2. 아래 쿼리를 푸시오.
 
 ```sql
 -- 자신의 급여가 평균 급여보다 많고 이름에 T가 들어가는 사원과 동일한 부서에 근무하는 모든 사원의 사원 번호, 이름 및 급여를 출력하라.
