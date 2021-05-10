@@ -1,1 +1,1 @@
-# Interviwe-jan
+# 오라클 SQL 수업정리
